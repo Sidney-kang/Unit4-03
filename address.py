@@ -24,7 +24,6 @@ def setup():
        postal_code = raw_input("Please enter you postal code: ")
        print_address(apt_number, st_address, city, province, postal_code)
     elif apt_number == "no":
-       apt_number = ""
        st_address = raw_input("Please enter your street address: ")
        city = raw_input("Please enter the city you live in: ")
        province = raw_input("Please enter the province you live in: ")
